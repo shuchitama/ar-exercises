@@ -33,3 +33,6 @@ end
 @new_store = Store.create(name: @store_name)
 puts @new_store.inspect
 @new_store.save
+
+@valid = Store.create(annual_revenue: 6200000, name: "Hogsmeade", mens_apparel: true, womens_apparel: true)
+@valid.save
