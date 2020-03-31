@@ -8,9 +8,9 @@ puts "----------"
 
 @store1 = Store.find_by(id: 1)
 @store2 = Store.find_by(id: 2)
-puts @store1.id
-puts @store2.id
+# puts @store1.id
+# puts @store2.id
 
 @store1.update(name: "Delta")
-puts @store1.name
+# puts @store1.name
 
